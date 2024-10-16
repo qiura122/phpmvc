@@ -1,9 +1,9 @@
 <?php 
 
-class Home {
+class Home extends Controller {
     public function index()
     {
-        echo 'home/emo';
+        $this->view('home/index');
     }
 }
 
